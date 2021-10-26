@@ -648,7 +648,7 @@ footer .footer-redes a {
     }
 
     /* ==ACERCA DE == */
-    .main .acerca-de .titulo-section, .main .acerca-de .texto-acerca-de {
+    .main .acerca-de .contenedor .titulo-section, .main .acerca-de .texto-acerca-de {
         width: 100%;
         text-align: center;
         }
@@ -665,5 +665,57 @@ footer .footer-redes a {
 
     .main .contacto .contenedor-formulario .formulario  form input[type="text"], .main .contacto .contenedor-formulario .formulario  form input[type="email"], .main .contacto .contenedor-formulario .formulario  form textarea {
     text-align: center;        
+    }
+}
+
+@media  screen and (max-width: 550px) {
+    
+    /* == BANNER PRINCIPAL == */
+    .main .banner-principal .texto-banner h1 {
+        font-size: 6.4rem;
+    }
+
+    /* == TITULOS SECCIONES ==  */
+    .titulo-section h2 {
+        font-size: 3.4rem;
+    }
+
+    /* == PROYECTOS ==  */
+    .main .proyectos .galeria-proyectos .proyecto {
+        width: 49%;
+    }
+    
+    /* == NUESTRO EQUIPO ==  */
+    .main .nuestro-equipo .equipo .persona-equipo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* == INFORMACION EXTRA ==  */
+    .main .info-extra .contenedor .info .contenido-info {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .icono-info {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .icono-info i {
+        font-size: 5.6rem;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .texto-info {
+        margin-left: 0;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .texto-info h4 {
+        font-size: 2rem;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info:first-child {
+        margin-bottom: 40px;
     }
 }
