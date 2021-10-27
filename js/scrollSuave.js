@@ -1,6 +1,7 @@
-$(document).ready(()=> {
+$(document).ready(()=>{
 
-let fixedHeader = $('#fixedHeader');
+    //Mostrar  y ocultar boton "Volver Arriba"
+let btnVolverArriba = $('#btnVolverArriba');
 
 $(window).on('scroll', ()=>{
 
@@ -11,12 +12,11 @@ $(window).on('scroll', ()=>{
 
 
     if(scrollTop >= proyectoOffsetTop) {
-        fixedHeader.css('margin-top', 0) //Se mostrara el fixed header
+        btnVolverArriba.css('margin-right', 0) //Se mostrara el fixed header
     } else if (scrollTop <= proyectoOffsetTop/2) {
-        fixedHeader.css('margin-top', '-68px') // Se ocultara el fixed header
+        btnVolverArriba.css('margin-right', '-60px') // Se ocultara el fixed header
     }
 
 });
-
 
 })
