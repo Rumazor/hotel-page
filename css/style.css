@@ -134,7 +134,7 @@ body {
 
 .main .banner-principal .banner {
     width: 100%;
-    /* height: 100vh; */
+    height: 100vh;
     background-image: url('../assets/banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
