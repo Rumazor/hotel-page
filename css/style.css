@@ -241,6 +241,10 @@ body {
     vertical-align: top;
 }
 
+.main .proyectos .galeria-proyectos .proyecto img:hover {
+    transition: .4s ease ;
+    transform: scale(1.1);
+}
 /* === MODAL FOTOS PROYECTOS ===  */
 .modal {
     position: fixed;
