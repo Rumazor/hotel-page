@@ -270,6 +270,7 @@ right: 20px;
 background: #0089E0;
 text-align: center;
 cursor: pointer;
+border-radius: 5px;
 }
 
 .modal .btn-cerrar i {
