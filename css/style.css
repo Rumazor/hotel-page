@@ -26,15 +26,15 @@ body {
 }
 
 .titulo-section h2 {
-    color: #0089E0;
-    font-size: 5rem;
+    color: #B05B3B;
+    font-size: 4rem;
     margin-bottom: 15px;
     font-weight: 500;
 }
 
 .titulo-section p {
     color: #979797;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -240,6 +240,8 @@ body {
 .main .proyectos .galeria-proyectos .proyecto img {
     width: 100%;
     vertical-align: top;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main .proyectos .galeria-proyectos .proyecto img:hover {
@@ -262,7 +264,7 @@ body {
 
 .modal img {
     width: 90%;
-    max-width: 600px;
+    max-width: 960px;
 }
 
 
@@ -315,7 +317,7 @@ border-radius: 5px;
 
 .main .acerca-de .texto-acerca-de p {
     color: #979797;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -490,7 +492,7 @@ border-radius: 5px;
 
 .main .info-extra .contenedor .foto {
     width: 50%;
-    height: 300px;
+    height: 600px;
     box-shadow: 0px 9px 32px -1px rgba(0,0,0, 0.5);
     background-image: url('../assets/info-foto.jpg');
     background-position: center;
