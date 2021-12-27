@@ -115,7 +115,7 @@ body {
 }
 
 .menu-principal a:hover, .top-redes a:hover{
-    color: #0089E0;
+    color: #B05B3B;
 }
 
 .fixed-header {
@@ -140,7 +140,7 @@ body {
 }
 
 .fixed-header .menu-principal a:hover, .top-redes a:hover {
-    color: #0089E0;
+    color: #B05B3B;
 }
 
 
@@ -171,6 +171,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed; */
+    background: rgb(202 85 5 / 20%);
 }
 
 .main .banner-principal .texto-banner{
@@ -181,17 +182,17 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    margin-top: -60px;
 }
 
 .main .banner-principal .texto-banner h2 {
     font-weight: 300;
     color: #fff;
-    margin-bottom: 20px;
     font-size: 2.4rem;
 }
 
 .main .banner-principal .texto-banner h1 {
-    font-size: 9.7rem;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 90px;
     color: #fff;
@@ -202,7 +203,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 8px 20px;
-    background: #0089E0;
+    background: #B05B3B;
     color: #fff;
     font-size: 2rem;
     border-radius: 4px;
@@ -502,6 +503,7 @@ border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; */
+    background: rgba(133, 168, 192, 0.2);
 }
 
 .main .contacto .contenedor-formulario {
@@ -521,7 +523,7 @@ border-radius: 5px;
 .main .contacto .contenedor-formulario .formulario h2 {
     font-size: 2.2rem;
     line-height: 2.4rem;
-    color: #0089E0;
+    color: #B05B3B;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -567,9 +569,9 @@ border-radius: 5px;
 .main .contacto .contenedor-formulario .formulario form input[type="submit"] {
     width: 100%;
     border: none;
-    border: 1px solid #0089E0;
+    border-radius: 12px;
     padding: 8px;
-    background-color: #0089E0;
+    background-color: #753422;
     color: #fff;
     font-size: 1.6rem;
     font-family: 'Poppins',sans-serif;
@@ -579,14 +581,17 @@ border-radius: 5px;
 }
 
 .main .contacto .contenedor-formulario .formulario form input[type="submit"]:hover {
-    background: #fff;
-    color:#0089E0;
+    background: #B05B3B;
+    color:#fff;
 }
 
 .main .contacto .contenedor-formulario .foto {
     width: 50%;
-    background-image: url('../assets/foto-contacto.jpg');
-    background-size: cover;
+    background-image: url('../assets/contacto.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 /* === FOOTER ===  */
@@ -685,7 +690,7 @@ footer .footer-redes a {
     }
 
     .menu-mobile .menu-principal {
-        width: 80%;
+        width: 100%;
         display:block;
         position: fixed;
         top: 56px;
