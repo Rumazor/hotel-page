@@ -123,7 +123,7 @@ body {
     height: 68px;
     border-bottom: 1px solid rgba(204,204,204, 0.5);
     padding: 0 36px;
-    background: #fff;
+    background: #D79771;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -136,7 +136,7 @@ body {
 }
 
 .fixed-header .menu-principal a, .fixed-header .top-redes a {
-    color: #444444;
+    color: #fff;
 }
 
 .fixed-header .menu-principal a:hover, .top-redes a:hover {
@@ -220,6 +220,7 @@ body {
 .main .proyectos {
     background: #f3f4fa;
     padding: 108px 0 54px 0 ;
+    background: rgb(202 85 5 / 10%)
 }
 
 .main .proyectos .galeria-proyectos {
@@ -290,7 +291,7 @@ border-radius: 5px;
 /* === ACERCA DE === */
 
 .main .acerca-de {
-    background: #f3f4fa;
+    background: rgb(202 85 5 / 10%);
 
 }
 
@@ -326,7 +327,7 @@ border-radius: 5px;
 .main .contenedor-slider {
     width: 100%;
     overflow: hidden;
-    background: #f3f4fa;
+    background: rgb(202 85 5 / 10%);
     padding: 54px 0;
     position: relative;
 }
@@ -378,7 +379,7 @@ border-radius: 5px;
  /* === NUESTRO EQUIPO === */
 
 .main .nuestro-equipo{
-    background: #f3f4fa;
+    background: rgb(202 85 5 / 10%);
     padding-top: 54px;
     padding-bottom: 108px;
 }
@@ -601,14 +602,14 @@ border-radius: 5px;
 /* === FOOTER ===  */
 
 footer {
-    background: #f3f4fa;
+    background: rgb(202 85 5 / 10%);
     padding: 54px 0;
     text-align: center;
 }
 
 footer .copy {
     color: #979797;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
@@ -670,8 +671,8 @@ footer .footer-redes a {
         display:block;
         width: 100%;
         padding: 5px 18px;
-        background: #fff;
-        color: #444444;
+        background: #D79771;
+        color: #fff;
         position: fixed;
         top: 0;
         left: 0;
@@ -690,7 +691,7 @@ footer .footer-redes a {
 
     .menu-mobile .barra a i  {
         font-size: 2.2rem;
-        color: #444444;
+        color: #fff;
     }
 
     .menu-mobile .menu-principal {
@@ -702,14 +703,14 @@ footer .footer-redes a {
         border-bottom: 1px solid rgba(204,204,204, 0.5);
         border-right: 1px solid rgba(204,204,204, 0.5);
         box-shadow: 0px 1px 5px -1px rgba(0,0,0, 0.2);
-        background: #fff;
+        background: #D79771;
         text-align: center;
     }
 
     .menu-mobile .menu-principal a {
         display:block;
         padding: 10px;
-        color: #444444;
+        color: #fff;
         border-bottom: 1px solid rgba(204,204,204, 0.5);
     }
 
