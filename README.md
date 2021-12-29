@@ -5,4 +5,3 @@
 - Sticky Header 
 - Versión móvil con Responsive Design
 - Movimiento entre imágenes manual
-- 
