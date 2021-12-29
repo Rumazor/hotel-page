@@ -124,7 +124,7 @@ body {
     width: 100%;
     height: 68px;
     padding: 0 36px;
-    background: #43392c;
+    background: #D79771;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -779,7 +779,7 @@ footer .footer-redes a {
         align-items: center;
     }
 
-    .menu-mobile .barra .logo {
+    .menu-mobile .barra .logo img {
         height: 40px;
     }
 
@@ -852,6 +852,10 @@ footer .footer-redes a {
     .main .banner-principal .texto-banner h2 {
         font-size: 2.6rem;
         margin-bottom: 26px;
+    }
+
+    .menu-mobile .logo img {
+        height:40px
     }
     /* == TITULOS SECCIONES ==  */
     .titulo-section h2 {
