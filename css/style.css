@@ -84,6 +84,13 @@ body {
     z-index: 100;
 }
 
+#reseña-puntaje{
+    color: #dada2d;
+    font-size: 1.8rem;
+}
+
+
+
 .logo {
     display: inline-block;
     width: 50px;
@@ -213,16 +220,16 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 8px 20px;
-    background: #B05B3B;
+    background: #753422;
     color: #fff;
     font-size: 2rem;
     border-radius: 4px;
-    transition: all .7s ease;
+    transition: all .4s ease;
 }
 
 .main .banner-principal .texto-banner  a:hover{
-    background: #fff;
-    color: #0089E0;
+    background: #B05B3B;
+    color: #fff;
 }
 
 /* === PROYECTOS ===  */
@@ -469,7 +476,7 @@ object-fit: cover;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo {
-    background: #fff;
+    background: #f9b84326;
     padding: 50px;
     width: 100%;
     max-width: 300px;
@@ -492,12 +499,12 @@ object-fit: cover;
 .main .nuestro-equipo .equipo .persona-equipo .texto h3 {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #0089E0
+    color: #B05B3B;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo .texto h4 {
     color: #979797;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
@@ -679,6 +686,10 @@ object-fit: cover;
     
 }
 
+figcaption {
+    font-size: 1.3rem;
+}
+
 /* === FOOTER ===  */
 
 footer {
@@ -833,9 +844,11 @@ footer .footer-redes a {
     /* == BANNER PRINCIPAL == */
     .main .banner-principal .texto-banner h1 {
         font-size: 3.3rem;
+        line-height: 40px
     }
     .main .banner-principal .texto-banner h2 {
         font-size: 2.6rem;
+        margin-bottom: 26px;
     }
     /* == TITULOS SECCIONES ==  */
     .titulo-section h2 {
