@@ -476,7 +476,7 @@ object-fit: cover;
 }
 
 .main .nuestro-equipo .equipo .persona-equipo {
-    background: #f9b84326;
+    background: #fff;
     padding: 50px;
     width: 100%;
     max-width: 300px;
@@ -789,7 +789,7 @@ footer .footer-redes a {
         width: 100%;
         display:block;
         position: fixed;
-        top: 56px;
+        top: 40.4px;
         left: -100%;
         border-bottom: 1px solid rgba(204,204,204, 0.5);
         border-right: 1px solid rgba(204,204,204, 0.5);
@@ -865,6 +865,7 @@ footer .footer-redes a {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        box-shadow: none;
     }
 
     /* == INFORMACION EXTRA ==  */
