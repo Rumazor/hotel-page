@@ -121,9 +121,8 @@ body {
 .fixed-header {
     width: 100%;
     height: 68px;
-    border-bottom: 1px solid rgba(204,204,204, 0.5);
     padding: 0 36px;
-    background: #D79771;
+    background: #43392c;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -318,7 +317,7 @@ border-radius: 5px;
 .card .content .card-title h4 {
     font-size: 2.5rem;
     font-weight: 500;
-    color: #446fd2;
+    color: #753422;
     
 }
 
@@ -327,11 +326,16 @@ border-radius: 5px;
     font-weight: 500;
     line-height: 20px;
     margin: 3px 0;
+    
 }
 
 
+.card .content .card-title .price {
+    color: #85BB65;
+}
+
 .card .content .card-title span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     
 }
 
@@ -512,8 +516,8 @@ object-fit: cover;
 /* === SECCION INFORMACION EXTRA ===  */
 
 .main .info-extra {
-    background: #191919;
-    padding: 130px 0;
+    background: #1f1c17;
+    padding: 100px 0;
 
 }
 
@@ -525,7 +529,7 @@ object-fit: cover;
 }
 
 .main .info-extra .contenedor .info {
-    width: 40%;
+    width: 45%;
 }
 
 .main .info-extra .contenedor .info .contenido-info {
@@ -567,14 +571,13 @@ object-fit: cover;
 }
 
 .main .info-extra .contenedor .foto {
-    width: 50%;
-    height: 400px;
-    box-shadow: 0px 9px 32px -1px rgba(0,0,0, 0.5);
+    width: 45%;
+    height: 300px;
     background-image: url('../assets/info-foto.jpg');
     background-position: center;
     background-size: cover;
     margin-left: 60px;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 .main .contacto {
@@ -644,6 +647,8 @@ object-fit: cover;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0;
+    overflow: hidden;
+
 }
 
 .main .contacto .contenedor-formulario .formulario form input[type="submit"] {
@@ -827,14 +832,14 @@ footer .footer-redes a {
     
     /* == BANNER PRINCIPAL == */
     .main .banner-principal .texto-banner h1 {
-        font-size: 2.6rem;
+        font-size: 3.3rem;
     }
     .main .banner-principal .texto-banner h2 {
-        font-size: 1.6rem;
+        font-size: 2.6rem;
     }
     /* == TITULOS SECCIONES ==  */
     .titulo-section h2 {
-        font-size: 2.4rem;
+        font-size: 3.3rem;
     }
 
     /* == PROYECTOS ==  */
